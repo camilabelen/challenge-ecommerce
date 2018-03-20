@@ -1,11 +1,24 @@
 import React, { Component } from 'react';
+import Items from './../Items/'
 
-const Cart = () => (
-    <div className="total">
+class Cart extends Component{
+  constructor(){
+    super();
+  }
+
+  render() {
+    return (
+      <div className="total">
         <span>Total:</span>
-    </div>
+      </div>
+    )
+  }
 
-);
+  addCart() {
+    console.log('click');
+  }
+};
+
 
 
 export default Cart;
