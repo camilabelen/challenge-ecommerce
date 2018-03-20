@@ -1,1 +1,44 @@
 /* you can add any styles you think could improve user's experience */
+.items{
+  background-color: #BABABA;
+}
+.product{
+  display:inline-block;
+  margin: 2em;
+  text-align: center;
+  background-color: #FFFFFF;
+  padding-bottom: 1em;
+  border-radius: 0.5em;
+}
+.product:hover{
+  cursor:pointer;
+}
+img{
+  border: 1px solid;
+}
+.product:first-child{
+  margin-left: 12%;
+}
+button{
+  background-color: #8A37AD;
+  border: none;
+  padding: 0.6em 1em 0.6em 1em;
+  border-radius: 0.5em;
+  color: #FFFFFF;
+  transition: background-color 0.5s ease-in-out;
+}
+button:hover{
+  background-color: #1D840F;
+  cursor: pointer;
+  transition: background-color 0.5s ease-in-out;
+}
+/*Cart*/
+
+.total{
+  background-color: #1D840F;
+  width: 5em;
+  height: auto;
+  text-align: left;
+  padding: 0.8em;
+  color: #FFFFFF;
+}
